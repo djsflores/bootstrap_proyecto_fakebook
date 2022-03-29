@@ -1,0 +1,44 @@
+body{
+  background: #5D4E8E;
+  color: #ffffff;
+}
+.logo-login{
+  /* background-image: url('https://dummyimage.com/400x400/5D4E8E/FFE600.jpg&text=logo'); */
+  background-position: center center;
+}
+.caja-login{
+  background: #7B77C2;
+  border-radius: 25px;
+}
+.boton-login{
+  background-color: #5D4E8E;
+  color: #ffffff;
+  border-radius: 15px;;
+}
+.entrada-login{
+  background: #B09DCE;
+  border: none;
+  border-radius: 6px;
+}
+.entrada-login:focus{
+  border-color: #000000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(93, 78, 142, 0.6);
+}
+.link-login{
+  color: #FFE600;
+}
+.link-login:hover{
+  color: #FFE600;
+  font-weight: bold;
+}
+.entrada-login::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.check-login{
+  background: #B09DCE;
+}
+.check-login:checked{
+  background: #B09DCE;
+}
+
